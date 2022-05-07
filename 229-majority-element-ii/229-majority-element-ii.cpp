@@ -1,6 +1,9 @@
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
+        //tc: o(nlogn) as map is used 
+        //sc: o(n)
+        
         int n = nums.size();
         vector<int> ans;
         
