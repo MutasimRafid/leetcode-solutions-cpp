@@ -10,6 +10,7 @@ public:
         //but there is 1 problem, we need to know if 1st row has any zero or not 
         //if 1st row doesn't have any zero, then (except that column has zero) all other element will remain same
         //will use a variable to keep track if 1st row has any zero or not
+        //TC: o(n*m)  SC: O(1)
         int H = matrix.size();
         int W = matrix[0].size();
         
