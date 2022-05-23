@@ -5,3 +5,5 @@ from: 1.01.00 minutes
 ​
 another solution: https://youtu.be/HxnSEWzBeKI
 ​
+Explanation of all 3 approaches: Take u forward: https://youtu.be/ZYpYur0znng
+​
