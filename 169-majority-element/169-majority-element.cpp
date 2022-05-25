@@ -24,6 +24,7 @@ public:
         */
         //----------------------------------------------------------
         
+        /*
         //Approach 2: optimized
         //using frequency map
         //tc: o(nlogn) ... because of map
@@ -48,5 +49,25 @@ public:
         }
         
         return ans;
+        */
+        //-----------------------------------------------------------------------
+        
+        //Approach 3: Most optimized for n/2 element
+        //Moore's voting algo(only valid for n/2 elements)
+        //TC: O(n) SC:O(1)
+        
+        int count = 0;
+        int candidate = 0;
+
+        for (int num : nums) {
+            if (count == 0) {
+                candidate = num;
+            }
+            if(num==candidate) count += 1; 
+            else count -= 1; 
+        }
+
+        return candidate;
+        
     }
 };
