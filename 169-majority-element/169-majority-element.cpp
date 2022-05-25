@@ -57,17 +57,21 @@ public:
         //TC: O(n) SC:O(1)
         
         int count = 0;
-        int candidate = 0;
-
-        for (int num : nums) {
-            if (count == 0) {
-                candidate = num;
+        int element = 0;
+        int n = nums.size();
+        
+        for(int i = 0;i<n;i++){
+            if(count == 0){
+                element = nums[i];
             }
-            if(num==candidate) count += 1; 
-            else count -= 1; 
+            if(element == nums[i]){
+                count += 1;
+            }
+            else{
+                count -= 1;
+            }
         }
-
-        return candidate;
+        return element;
         
     }
 };
