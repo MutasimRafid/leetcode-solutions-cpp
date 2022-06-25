@@ -1,1 +1,1 @@
-# leetcode solutios by Rafid (C++)
+# leetcode and GFG solutios by Rafid (C++)
