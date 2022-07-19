@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        /*
+         /*
         //Approach 1: Brute force
         //using nested loop
         //TC: 0(n^2)... SC:O(n)
@@ -41,4 +41,5 @@ public:
         
         return ans;
     }
+    
 };
